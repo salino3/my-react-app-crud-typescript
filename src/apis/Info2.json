@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Mario",
+        "job": "Dev",
+        "major": true
+    }, {
+        "id": 2,
+        "name": "Luigi",
+        "job": "Doctor",
+        "major": true
+    }, {
+        "id": 3,
+        "name": "Karl",
+        "job": "Dev",
+        "major": true
+    }, {
+        "id": 4,
+        "name": "Dado",
+        "job": "Dev",
+        "major": false
+    }, {
+        "id": 5,
+        "name": "Lisa",
+        "job": "Dev",
+        "major": false
+    }, {
+        "id": 6,
+        "name": "Katia",
+        "job": "Seller",
+        "major": false
+    }, {
+        "id": 7,
+        "name": "Marcos",
+        "job": "Plumber",
+        "major": false
+    }, {
+        "id": 8,
+        "name": "Joana",
+        "job": "Designer",
+        "major": true
+    }, {
+        "id": 9,
+        "name": "Sara",
+        "job": "Model",
+        "major": false
+    }, {
+        "id": 10,
+        "name": "Gigi",
+        "job": "Dev",
+        "major": true
+    }
+]

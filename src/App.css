@@ -1,0 +1,160 @@
+body {
+  background-color: #bb2649;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Home */
+
+.textHome{
+  position: relative;
+    left: 5em;
+
+}
+
+.divHome {
+  display: grid;
+  grid-auto-flow: row;
+  position: relative;
+  right: 8em;
+}
+
+.divHome2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+p {
+  white-space: nowrap;
+}
+
+.btn-delete {
+  white-space: nowrap;
+  height: 2.5em;
+  border: none;
+  border-radius: 20px;
+  background: darkred;
+  color: white;
+}
+
+.btn-delete:active {
+  border: solid 2px yellow;
+  height: 2.4em;
+  color: yellow;
+}
+
+.divMajorG {
+  border: solid 1px red;
+  padding: 0.5em;
+  background: green;
+  height: 1.1em;
+}
+
+.divMajorR {
+  border: solid 1px red;
+  padding: 0.5em;
+  background: red;
+  height: 1.1em;
+}
+
+/*  Home and NewUser2 */
+
+.div1{
+  min-width: 22em;
+  max-width:auto;
+}
+
+.div3{
+  min-width: 22em;
+  max-width:auto;
+}
+
+.mydiv {
+  border: solid 1px yellow;
+  margin: 1em;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  min-width: 12em;
+  width: auto;
+  max-height: 6em;
+  padding: 1em;
+}
+
+.mydiv span {
+  color: blue;
+}
+
+/* CreatingUser and NewUser2 */
+
+.mydivcreating {
+  border: solid 1px yellow;
+  margin: 1em;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+  min-width: 12em;
+  width: auto;
+  max-height: 6em;
+  padding: 1em;
+}
+
+.mydivcreating span {
+  color: blue;
+}
+
+.myform input {
+  display: grid;
+  gap: 0.5em;
+  width: 25em;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-radius: 20px;
+}
+
+.myform button {
+  width: 8em;
+  margin: 0 auto;
+  margin: 1em;
+  border-radius: 20px;
+}
+
+.myform button:active {
+  font-size: 80%;
+}
+
+.divMappingInfo,
+div {
+  margin-bottom: 5em;
+  max-width: 40em;
+  margin: 0 auto;
+  border-radius: 20px;
+}
